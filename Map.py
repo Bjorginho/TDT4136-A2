@@ -100,7 +100,7 @@ class Map_Obj():
             Path to map for current task
         """
         if task == 1:
-            start_pos = [27, 18]
+            start_pos = [27, 18] # [27, 18]
             goal_pos = [40, 32]
             end_goal_pos = goal_pos
             path_to_map = 'Samfundet_map_1.csv'
@@ -341,6 +341,15 @@ class Map_Obj():
             ' S ': (255, 0, 255),  # magenta
             ' G ': (0, 128, 255)   # cyan
         }
+
+        # if value == 1:
+        #     str_value = ' . '
+        # elif value == 2:
+        #     str_value = ' , '
+        # elif value == 3:
+        #     str_value = ' : '
+        # elif value == 4:
+        #     str_value = ' ; '
         # Go through image and set pixel color for every position
         for y in range(height):
             for x in range(width):
