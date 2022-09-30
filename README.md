@@ -1,5 +1,7 @@
 # TDT4136-A2
 
+## Assignment 2 - Group 160
+
 ### Students 
 * Frede Berdal **(fredekb@stud.ntnu.no)**
 * André Bjørgum **(anbjorg@stud.ntnu.no)**
